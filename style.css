@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
 
 }
 .carousel-item img{
@@ -248,9 +250,15 @@
     width: 100%;
     height: 100%;
 }
-/*responsive*/
+
+
+/*responsive contactus*/
+
 @media (max-width:991px)
 {
+    .title{
+        padding-top: 10px;
+    }
   .contactus{
     padding: 20px;
   }
@@ -281,3 +289,4 @@
     padding: 0;
   }
 }
+
